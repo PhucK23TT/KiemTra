@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.details {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+.toggle-button {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    color: #000000;
+}
+.toggle-button:hover {
+    text-decoration: underline;
+}
+.triangle {
+    margin-right: 5px;
+    transition: transform 0.3s;
+}
+.triangle.open {
+    transform: rotate(90deg);
+}
